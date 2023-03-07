@@ -14,7 +14,7 @@
 
 body {
 background-color: var(--primary);
-font-family: 'Courier New', Courier, monospace
+font-family: 'Courier New', Courier, monospace;
 margin: 0;
 display: flex;
 flex-direction: column;
@@ -58,7 +58,55 @@ header {
     color: var(--tertiary);
     margin: .5;
     padding: 3px 5px;
-    font-size: 55px;
     line-height: 1.5;
     display: inline;
+   
+  }
+
+
+  
+  .page-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .page-section > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid var(--primary);
+    font-size: 4vw;
+    line-height: 1.1;
+  }
+  
+  .page-section > div {
+    flex: 0 0 77%;
+  }
+  
+  .page-section p {
+    margin-bottom: 20px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .flex-item {
+    border: 5px solid var(--secondary);
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
   }
