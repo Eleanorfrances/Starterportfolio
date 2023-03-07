@@ -46,6 +46,7 @@ header {
     background-image: url("https://lh5.googleusercontent.com/UE-FBcDWTwZE7yQWqBwYGYhTU3XeYJnTcPd-YRJvNkxZn0cxnvJs1k04AlOgIi-Tc7I=w2400?source=screenshot.guru"> <img src="https://lh5.googleusercontent.com/UE-FBcDWTwZE7yQWqBwYGYhTU3XeYJnTcPd-YRJvNkxZn0cxnvJs1k04AlOgIi-Tc7I=w1200-h630-p");
   }
   
+  /* adding header css */
   header h1 {
     font-size: 85px;
     color: var(--light);
@@ -54,8 +55,10 @@ header {
     margin: 0;
   }
 
+  /* under banner css */
   .hero-banner h2 {
     color: var(--tertiary);
+    font-size: 50px;
     margin: .5;
     padding: 3px 5px;
     line-height: 1.5;
@@ -64,7 +67,7 @@ header {
   }
 
 
-  
+  /* css for my work, contact, and get to know me section */
   .page-section {
     margin: 25px 0;
     padding: 10px 0;
@@ -83,30 +86,22 @@ header {
     font-size: 4vw;
     line-height: 1.1;
   }
-  
-  .page-section > div {
-    flex: 0 0 77%;
-  }
-  
-  .page-section p {
-    margin-bottom: 20px;
-  }
-  
+
+  /* setting up flex contair for projects */
   .flex-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: single-line;
     justify-content: center;
   }
   
   .flex-item {
-    border: 5px solid var(--secondary);
-    min-height: 150px;
-    max-height: 150px;
+    border: 4px solid var(--secondary);
     display: flex;
     align-items: flex-end;
+    min-height: 150px;
+    max-height: 150px;
     padding: 0 0 20px 0;
     margin: 0.5em;
     background-size: 150%;
     transition: all 0.5s;
-    font-size: 0.9rem;
   }
