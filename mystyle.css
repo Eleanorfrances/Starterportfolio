@@ -4,10 +4,10 @@
 
 
 :root {
-    --primary: rgb(164, 136, 190);
-    --secondary: rgb(174, 223, 225);
+    --primary: rgb(149, 190, 136);
+    --secondary: rgb(88, 112, 85);
     --tertiary: rgb(249, 237, 181);
-    --dark: rgb(38, 0, 44);
+    --dark: rgb(14, 34, 8);
     --light: rgb(238, 247, 244);
   }
   /* color pallette */
@@ -45,3 +45,10 @@ header {
     background-color: var(--secondary);
   }
   
+  header h1 {
+    font: size 200px;
+    color: var(--light);
+    padding: 3px 3% 3px 3%;
+    line-height: 2;
+    margin: 0;
+  }
