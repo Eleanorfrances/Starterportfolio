@@ -2,12 +2,46 @@
     box-sizing: border-box;
 }
 
+
+:root {
+    --primary: rgb(164, 136, 190);
+    --secondary: rgb(174, 223, 225);
+    --tertiary: rgb(249, 237, 181);
+    --dark: rgb(38, 0, 44);
+    --light: rgb(238, 247, 244);
+  }
+  /* color pallette */
+
 body {
-font-family: 'Lucida Sans';
+background-color: var(--primary);
+font-family: 'Courier New', Courier, monospace
 margin: 0;
 display: flex;
 flex-direction: column;
 min-height: 175vh;
 justify-content: flex-start;
 }
-/* setting up body css flex */
+
+/* setting up body */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/* setting margin size for everything */
+
+header {
+    
+    display: flex;
+    padding: 15px 6% 15px 0;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--secondary);
+  }
+  
