@@ -43,12 +43,22 @@ header {
     flex-wrap: wrap;
     align-items: center;
     background-color: var(--secondary);
+    background-image: url("https://lh5.googleusercontent.com/UE-FBcDWTwZE7yQWqBwYGYhTU3XeYJnTcPd-YRJvNkxZn0cxnvJs1k04AlOgIi-Tc7I=w2400?source=screenshot.guru"> <img src="https://lh5.googleusercontent.com/UE-FBcDWTwZE7yQWqBwYGYhTU3XeYJnTcPd-YRJvNkxZn0cxnvJs1k04AlOgIi-Tc7I=w1200-h630-p");
   }
   
   header h1 {
-    font: size 200px;
+    font-size: 85px;
     color: var(--light);
     padding: 3px 3% 3px 3%;
     line-height: 2;
     margin: 0;
+  }
+
+  .hero-banner h2 {
+    color: var(--tertiary);
+    margin: .5;
+    padding: 3px 5px;
+    font-size: 55px;
+    line-height: 1.5;
+    display: inline;
   }
